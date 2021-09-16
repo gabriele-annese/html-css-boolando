@@ -5,7 +5,7 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-/* main */
+/* BOX*/
 
 .container {
     width: 80%;
@@ -13,7 +13,6 @@
 }
 
 .box {
-    background-color: blue;
     width: 300px;
     height: 400px;
     display: inline-block;
@@ -70,4 +69,24 @@
 .box-information .sustainability{
     padding: 5px;
     background-color: #00875a;
+}
+
+/* TITLES */
+
+.merch {
+    font-size: 17px;
+}
+
+h3 {
+    font-size:20px;
+}
+
+.price-red {
+    color: #ff0000;
+    font-size: 18px;
+}
+
+.old-price {
+    text-decoration: line-through;
+    font-size: 18px;
 }
