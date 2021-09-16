@@ -31,7 +31,7 @@
     height: auto;
 }
 
-.box-information {
+.imgbox .box-information {
     font-size: 18px;
     color: #fff;
     position: absolute;
@@ -40,12 +40,12 @@
     margin-bottom: 20px;
 }
 
-.discount {
+.box-information .discount {
     padding: 5px;
     background-color: #eb0037;
 }
 
-.sostenibility {
+.box-information .sustainability{
     padding: 5px;
     background-color: #00875a;
 }
