@@ -5,6 +5,8 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+
+
 /* BOX*/
 
 .container {
@@ -26,6 +28,7 @@
     margin: 0 auto;
     position: relative;
 }
+
 
 /* IMG */
 .img {
@@ -51,8 +54,9 @@
     display: block;
 }
 
+
 /* HEART */
-.heart  {
+.heart-container .heart  {
     position: absolute;
     right: 0;
     top: 10px;
@@ -60,8 +64,13 @@
     font-size: 50px;
     background: #fff;
     padding: 10px;
+    display: none;
 }
 
+.imgbox:hover .heart{
+    display: block;
+    color: #eb0037;
+}
 
 /* box-information */
 
@@ -83,6 +92,7 @@
     padding: 5px;
     background-color: #00875a;
 }
+
 
 /* TITLES */
 
