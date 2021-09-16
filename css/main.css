@@ -5,6 +5,7 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
+/* main */
 
 .container {
     width: 80%;
@@ -26,10 +27,31 @@
     position: relative;
 }
 
+/* IMG */
 .img {
     width: 100%;
     height: auto;
+    display: block;
 }
+
+.img2 {
+    width: 100%;
+    height: auto;
+    display: none;
+}
+
+ #cambioimg{
+    float: left;
+}
+
+#cambioimg:hover .img {
+    display: none;
+}
+#cambioimg:hover .img2 {
+    display: block;
+}
+
+/* box-information */
 
 .imgbox .box-information {
     font-size: 18px;
